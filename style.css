@@ -66,3 +66,23 @@ main {
     background-color: rgb(190, 190, 190);
     cursor: pointer;
 }
+
+#container_itens {
+    width: 85%;
+    min-height: 100px;
+    background-color: lightgreen;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+.item {
+    display: block;
+    padding: 10px 25px;
+}
+
+.item:hover {
+    background-color: lightgray;
+}
